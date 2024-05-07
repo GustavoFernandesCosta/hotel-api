@@ -1,11 +1,11 @@
-import { IUsersController, IUsersRepository } from "./protocols";
+import { IUsersController, IUsersService } from "./protocols";
 
 export class UsersController implements IUsersController {
-  constructor(private readonly usersRepository: IUsersRepository) {}
+  constructor(private readonly usersService: IUsersService) {}
 
   async getAll() {
     try {
-      const users = await this.usersRepository.getUsers();
+      const users = await this.usersService.getUsers();
       return {
         statusCode: 200,
         body: users,
