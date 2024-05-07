@@ -1,4 +1,5 @@
 import { HttpResponse } from "../protocols";
+import { CreateUserDto } from "./dto/userDto";
 import { User } from "./models/user";
 
 export interface IUsersController {
@@ -11,4 +12,5 @@ export interface IUsersService {
 
 export interface IUsersRepository {
   getUsers(): Promise<User[]>;
+  createUser(body: CreateUserDto): Promise<User>;
 }
