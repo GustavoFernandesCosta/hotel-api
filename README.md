@@ -54,6 +54,10 @@ Certifique-se de ter os seguintes pré-requisitos instalados em sua máquina:
 
 O servidor será iniciado em `http://localhost:3000`.
 
+6. **criação de pastas**:
+
+    Crie na raiz do projeto as pastas: public/reservas e public/uploads/payments
+
 ## 🛠️ Tecnologias Utilizadas
 
 - **Node.js** para o backend.
