@@ -26,33 +26,33 @@ Certifique-se de ter os seguintes pré-requisitos instalados em sua máquina:
     npm install
     ```
 
-3. **Suba o container com o banco de dados**:
+    Ou, se preferir utilizar Yarn:
+
+    ```bash
+    yarn install
+    ```
+
+3. **Configure as variáveis de ambiente**:
+
+    Crie um arquivo `.env` na raiz do projeto e defina as variáveis de ambiente necessárias para o projeto. Você pode se basear em um arquivo de exemplo como `.env.example`, se houver.
+
+4. **Suba o container com o banco de dados**:
     ```bash
     docker-compose up -d
     ```
 
-4. **Inicie o servidor**:
+5. **Inicie o servidor em ambiente de desenvolvimento**:
     ```bash
-    npm start
+    npm start:dev
+    ```
+
+    Ou, se estiver usando Yarn:
+
+    ```bash
+    yarn start:dev
     ```
 
 O servidor será iniciado em `http://localhost:3000`.
-
-## ⚙️ Executando os testes
-
-Explique como executar os testes automatizados para este sistema.
-
-### 🔩 Testes de ponta a ponta
-
-Explique quais são esses testes e por que são importantes.
-
-### ⌨️ Testes de estilo de codificação
-
-Explique quais são esses testes e por que são importantes.
-
-## 📦 Implantação
-
-Forneça informações sobre como implantar esta API em um ambiente de produção.
 
 ## 🛠️ Tecnologias Utilizadas
 
