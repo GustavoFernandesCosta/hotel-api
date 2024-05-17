@@ -17,7 +17,7 @@ Certifique-se de ter os seguintes pré-requisitos instalados em sua máquina:
 
 1. **Clone o repositório**:
     ```bash
-    git clone https://github.com/seu-usuario/hotel-api.git
+    git clone https://github.com/GustavoFernandesCosta/hotel-api.git
     cd hotel-api
     ```
 
